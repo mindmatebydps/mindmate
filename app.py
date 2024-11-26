@@ -10,6 +10,7 @@ from keras.models import load_model
 
 nltk.download('punkt_tab')
 nltk.download('wordnet')
+nltk.download('omw-1.4')
 
 # Load resources
 lemmatizer = WordNetLemmatizer()
