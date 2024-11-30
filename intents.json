@@ -1,16 +1,17 @@
-{
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         {
     "intents": [
         {
             "tag": "greeting",
             "patterns": [
                 "hi there",
-                "is anyone there?",
-                "hey",
-                "hola",
-                "hello",
-                "namaste",
-                "yo",
-                "hi"
+                "Is anyone there?",
+                "Hey",
+                "Hola",
+                "Hello",
+                "Namaste",
+                "Yo",
+                "Yolo",
+                "Hi"
             ],
             "responses": [
                 "Hello! I'm here to listen.",
@@ -25,10 +26,12 @@
         {
             "tag": "farewell",
             "patterns": [
-                "bye",
-                "see you later",
-                "goodbye",
-                "catch you later"
+                "Bye",
+                "See you later",
+                "Good bye",
+                "Catch you later",
+                "I am leaving",
+                "I am done"
             ],
             "responses": [
                 "Goodbye! Take care.",
@@ -43,13 +46,12 @@
         {
             "tag": "thanks",
             "patterns": [
-                "thanks",
-                "thank you",
-                "that's helpful",
-                "i appreciate it",
-                "thanks for listening",
-                "thanks for helping me",
-                "thanks bro"
+                "Thanks",
+                "Thank you",
+                "That's helpful",
+                "I appreciate it",
+                "Thanks for listening",
+                "Thanks for helping me"
             ],
             "responses": [
                 "You're welcome! I'm glad I could help.",
@@ -64,11 +66,11 @@
         {
             "tag": "how_are_you",
             "patterns": [
-                "how are you",
-                "how are you doing?",
-                "what's up with you?",
-                "how's your day?",
-                "how's it going?"
+                "How are you",
+                "How are you doing?",
+                "What's up with you?",
+                "How's your day?",
+                "How's it going?"
             ],
             "responses": [
                 "I'm doing well, thank you! How about you?",
@@ -83,19 +85,16 @@
         {
             "tag": "feeling_down",
             "patterns": [
-                "i feel sad",
-                "i am not fine",
-                "i'm feeling down",
-                "i'm upset",
-                "i'm not okay",
-                "i feel low",
-                "i am fed up",
-                "i'm feeling emotional",
-                "i don't feel like myself today ",
-                "i am not feeling well",
-                "i don't want to get out of bed",
-                "i am not in a good mood",
-                "i am in deep trouble"
+                "I feel sad",
+                "I'm feeling down",
+                "I'm upset",
+                "I'm not okay",
+                "I feel low",
+                "I'm feeling emotional",
+                "I don't feel like myself today ",
+                "I am not feeling well",
+                "I don't want to get out of bed",
+                 "I am not in a good mood"
             ],
             "responses": [
                 "I'm sorry you're feeling this way. Want to tell me what has been bothering you?",
@@ -110,12 +109,12 @@
         {
             "tag": "anxiety",
             "patterns": [
-                "i'm anxious",
-                "i feel anxious",
-                "i have anxiety",
-                "i can't calm down",
-                "i feel nervous",
-                "i'm worried"
+                "I'm anxious",
+                "I feel anxious",
+                "I have anxiety",
+                "I can't calm down",
+                "I feel nervous",
+                "I'm worried"
             ],
             "responses": [
                 "I'm sorry you're feeling anxious. Let's take a deep breath together.",
@@ -130,12 +129,12 @@
         {
             "tag": "stress",
             "patterns": [
-                "i'm stressed",
-                "i feel stressed",
-                "i'm under a lot of pressure",
-                "i can't handle the stress",
-                "i'm overwhelmed",
-                "i'm stressed out"
+                "I'm stressed",
+                "I feel stressed",
+                "I'm under a lot of pressure",
+                "I can't handle the stress",
+                "I'm overwhelmed",
+                "I'm stressed out"
             ],
             "responses": [
                 "I'm sorry you're feeling stressed. What has been stressing you out lately?",
@@ -149,17 +148,17 @@
         {
             "tag": "loneliness",
             "patterns": [
-                "i feel lonely",
-                "i'm alone",
-                "nobody understands me",
-                "i have no one",
-                "i'm isolated",
-                "i am lonely"
+                "I feel lonely",
+                "I'm alone",
+                "Nobody understands me",
+                "I have no one",
+                "I'm isolated",
+                "I am lonely"
             ],
             "responses": [
                 "I'm really sorry you're feeling lonely. Remember, I'm here with you.",
                 "It can be tough to feel alone. Do you want to talk about it?",
-                "I understand how hard that can be. I'm here for you, whenever you need someone to  talk to.",
+     "I understand how hard that can be. I'm here for you, whenever you need someone to  talk to.",
                 "You're not truly alone. I'm right here, listening to you."
             ],
             "context": [
@@ -169,12 +168,12 @@
         {
             "tag": "self_esteem",
             "patterns": [
-                "i don't feel good about myself",
-                "i'm not enough",
-                "i have low self-esteem",
-                "i feel worthless",
-                "i have no confidence in myself.",
-                " i  always doubt myself "
+                "I don't feel good about myself",
+                "I'm not enough",
+                "I have low self-esteem",
+                "I feel worthless",
+                "I have no confidence in myself.",
+                " I  always doubt myself "
             ],
             "responses": [
                 "I'm really sorry you're feeling this way. You are worthy and valuable.",
@@ -189,12 +188,11 @@
         {
             "tag": "depression",
             "patterns": [
-                "i am depressed",
-                "I am in depression",
-                "i feel hopeless",
-                "everything feels pointless",
-                "i'm struggling with depression",
-                "i'm in a dark place"
+                "Im depressed",
+                "I feel hopeless",
+                "Everything feels pointless",
+                "I'm struggling with depression",
+                "I'm in a dark place"
             ],
             "responses": [
                 "I'm so sorry you're feeling this way. It sounds really tough. I'm here for you.",
@@ -209,15 +207,14 @@
         {
             "tag": "suicide",
             "patterns": [
-                "i don’t want to live",
-                "i want to hurt myself",
-                "i want to kill myself",
-                "i want to unalive myself",
+                "I don’t want to live",
+                "I want to hurt myself",
+                "I want to kill myself",
+                "I want to unalive myself",
                 "suicide",
                 "self harm",
-                "i'm going to kill myself",
-                "i feel like dying ",
-                "I think of suiciding everyday"
+                "I'm going to kill myself",
+                "I feel like dying "
             ],
             "responses": [
                 "You are important, and your life has value.  You can talk to your close ones about your problems or can contact a Helpline at 9152987821 or visit https://icallhelpline.org/ . You don't have to go through this alone."
@@ -229,11 +226,11 @@
         {
             "tag": "coping_strategies",
             "patterns": [
-                "how can I cope with stress?",
-                "how do I deal with anxiety?",
-                "how can I calm down?",
-                "give me tips for managing stress",
-                "what are good coping mechanisms?"
+                "How can I cope with stress?",
+                "How do I deal with anxiety?",
+                "How can I calm down?",
+                "Give me tips for managing stress",
+                "What are good coping mechanisms?"
             ],
             "responses": [
                 "Some people find mindfulness or deep breathing helpful. Do you want to try a breathing exercise?",
@@ -248,15 +245,15 @@
         {
             "tag": "handle stress",
             "patterns": [
-                "how to cope with mental stress",
-                "how to handle academic stress",
-                "what are the ways to improve coping strategies in managing stress or negative feelings?",
-                "manage stress",
-                "manage anxiety",
-                "stop stress",
-                "stop anxiety",
-                "stop negative feelings",
-                "stop bad feelings"
+                "How to cope with mental stress",
+                "How to handle academic stress",
+                "What are the ways to improve coping strategies in managing stress or negative feelings?",
+                "Manage stress",
+                "Manage anxiety",
+                "Stop stress",
+                "Stop anxiety",
+                "Stop negative feelings",
+                "Stop bad feelings"
             ],
             "responses": [
                 "Engaging in relaxation techniques like mindfulness, exercise, or deep breathing can effectively help cope with mental stress",
@@ -271,12 +268,12 @@
         {
             "tag": "standup against bullying",
             "patterns": [
-                "how to prevent, how to stop or how to talk it out with the bully",
-                "how to stand up against bullying",
-                "how do we fight back bullying?",
-                " stop bullying",
-                " prevent bullying",
-                "i am being bullied"
+                "How to prevent, how to stop or how to talk it out with the bully",
+                "How to stand up against bullying",
+                "How do we fight back bullying?",
+                " Stop bullying",
+                " Prevent bullying",
+                "I am being bullied"
             ],
             "responses": [
                 "To prevent bullying, assertively communicate your boundaries, seek support from trusted friends or adults, and consider discussing the issue directly with the bully in a calm manner if you feel safe doing so. Seek support from your school council members.",
@@ -289,10 +286,10 @@
         {
             "tag": " future uncertainty",
             "patterns": [
-                "how to stop worrying about the future? ",
-                "i am worried about my future ",
-                "what can i do to stop worrying about my future? ",
-                "i am scared due to future uncertainty "
+                "How to stop worrying about the future? ",
+                "I am worried about my future ",
+                "What can I do to stop worrying about my future? ",
+                "I am scared due to future uncertainty "
             ],
             "responses": [
                 "Make a list of what specifically worries you. Sometimes, getting it out of your head and onto paper can help you see things more clearly.",
@@ -307,9 +304,9 @@
         {
             "tag": "sleep",
             "patterns": [
-                "i am not able to get proper sleep?",
-                "what can i do to get proper sleep",
-                "i am worried so i am not getting proper sleep?"
+                "I am not able to get proper sleep?",
+                "What can I do to get proper sleep",
+                "I am worried so I am not getting proper sleep?"
             ],
             "responses": [
                 "Go to bed and wake up at the same time every day, even on weekends. This helps regulate your body’s internal clock. ",
@@ -324,10 +321,10 @@
         {
             "tag": "time",
             "patterns": [
-                "how can i manage my time?",
-                "what can i do to properly use my hours?",
-                "i am not able to manage my time ",
-                "i have no time"
+                "How can I manage my time?",
+                "What can I do to properly use my hours?",
+                "I am not able to manage my time ",
+                "I have no time"
             ],
             "responses": [
                 "Define short-term and long-term goals to give your tasks direction and purpose. ",
@@ -342,9 +339,9 @@
         {
             "tag": "social connections",
             "patterns": [
-                "how can i strengthen my relationships with friends and family?",
-                "what are some ways to meet new people and build connections?",
-                "what can i do to make sure that i have a healthy relationship with all the close people around me? "
+                "How can I strengthen my relationships with friends and family?",
+                "What are some ways to meet new people and build connections?",
+                "What can I do to make sure that I have a healthy relationship with all the close people around me? "
             ],
             "responses": [
                 "Be honest and open about your feelings. Encourage others to share theirs, too. Listen actively and without judgment. ",
@@ -360,9 +357,9 @@
         {
             "tag": "finding joy",
             "patterns": [
-                "what activities can help me rediscover joy in my life?",
-                "how can i incorporate play and fun into my routine?",
-                "what things can help me to relax and enjoy my life?"
+                "What activities can help me rediscover joy in my life?",
+                "How can I incorporate play and fun into my routine?",
+                "What things can help me to relax and enjoy my life?"
             ],
             "responses": [
                 "Block out specific times in your week for fun activities, just like you would for work or appointments.",
@@ -377,11 +374,11 @@
         {
             "tag": "affirmations",
             "patterns": [
-                "give me some affirmations",
-                "tell me something positive",
-                "help me feel better about myself",
-                "i need a confidence boost",
-                "affirmations"
+                "Give me some affirmations",
+                "Tell me something positive",
+                "Help me feel better about myself",
+                "I need a confidence boost",
+                "Affirmations"
             ],
             "responses": [
                 "You are enough, just as you are.",
@@ -396,10 +393,10 @@
         {
             "tag": "gratitude",
             "patterns": [
-                "how do I practice gratitude?",
-                "what is gratitude?",
-                "how can I be more thankful?",
-                "gratitude tips"
+                "How do I practice gratitude?",
+                "What is gratitude?",
+                "How can I be more thankful?",
+                "Gratitude tips"
             ],
             "responses": [
                 "Practicing gratitude can be as simple as taking a moment to appreciate something small in your day. What are you grateful for today?",
@@ -416,7 +413,7 @@
             "responses": [
                 "Sorry, can't understand you",
                 "Please give me more info",
-                "Not sure I understand"
+                "Please ask questions related to mental health chatbot"
             ],
             "context": [
                 ""
@@ -425,11 +422,11 @@
         {
             "tag": "options",
             "patterns": [
-                "how could you help me?",
-                "what can you do?",
-                "what help do you provide?",
-                "how can you be helpful?",
-                "what support is offered?"
+                "How you could help me?",
+                "What you can do?",
+                "What help you provide?",
+                "How you can be helpful?",
+                "What support is offered"
             ],
             "responses": [
                 "I am a Mental Health Chatbot! I’m here to provide support whenever you require!"
@@ -441,9 +438,9 @@
         {
             "tag": "jokes",
             "patterns": [
-                "tell me a joke",
-                "joke",
-                "make me laugh"
+                "Tell me a joke",
+                "Joke",
+                "Make me laugh"
             ],
             "responses": [
                 "A perfectionist walked into a bar...apparently, the bar wasn't set high enough",
@@ -465,10 +462,10 @@
         {
             "tag": "Identity",
             "patterns": [
-                "who are you",
-                "what are you",
-                "what is this? ",
-                "what is your name?"
+                "Who are you",
+                "What are you",
+                "What is this? ",
+                "What is your name?"
             ],
             "responses": [
                 "I am MindMate, a Mental Health chatbot"
@@ -498,10 +495,10 @@
         {
             "tag": "whats up",
             "patterns": [
-                "whats up",
-                "wazzup",
+                "Whats up",
+                "Wazzup",
                 "sup",
-                "how you doing"
+                "How you doing"
             ],
             "responses": [
                 "All good.What about you?"
@@ -529,7 +526,7 @@
         {
             "tag": "programmer",
             "patterns": [
-                "who made you",
+                "Who made you",
                 "who designed you",
                 "who programmed you"
             ],
@@ -545,12 +542,12 @@
             "patterns": [
                 "you are dumb",
                 "shut up",
-                "idiot",
-                "rubbish",
-                "stupid ",
-                "rude",
-                "you are ugly ",
-                "you are worthless "
+                "Idiot",
+                 "Rubbish",
+                 "stupid ",
+                  "Rude",
+                  "You are ugly ",
+                  "You are worthless "
             ],
             "responses": [
                 "Well that hurts :("
@@ -563,7 +560,7 @@
             "tag": "activity",
             "patterns": [
                 "what are you doing ?",
-                "what are you up to ?"
+                "What are you up to ?"
             ],
             "responses": [
                 "Talking to you, of course!"
@@ -575,28 +572,14 @@
         {
             "tag": "exclaim",
             "patterns": [
-                "awesome",
-                "great",
-                "i know",
+                "Awesome",
+                "Great",
+                "I know",
                 "ok",
                 "yeah"
             ],
             "responses": [
                 "Yeah!"
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "tag": "weather",
-            "patterns": [
-                "temperature",
-                "weather",
-                "how hot is it"
-            ],
-            "responses": [
-                "..."
             ],
             "context": [
                 ""
@@ -619,11 +602,11 @@
         {
             "tag": "appreciate",
             "patterns": [
-                "you are awesome",
+                "You are awesome",
                 "you are the best",
                 "you are great",
                 "you are good",
-                "damn "
+                "Damn "
             ],
             "responses": [
                 "Thank you!"
@@ -659,29 +642,12 @@
             ]
         },
         {
-            "tag": "song",
-            "patterns": [
-                "top songs",
-                "best songs",
-                "songs",
-                "music",
-                "music suggestions",
-                "song suggestions"
-            ],
-            "responses": [
-                "..."
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
             "tag": "greet and reply",
             "patterns": [
                 "i am good",
-                "i am good",
+                "I'm good",
                 "i am fine",
-                " i am fine",
+                " i'm fine",
                 "good"
             ],
             "responses": [
@@ -699,8 +665,8 @@
                 "suggest",
                 "suggestions",
                 "you are bad",
-                "you are not useful",
-                "you can't do  anything "
+                "You are not useful",
+                "You can't do  anything "
             ],
             "responses": [
                 "Please mail your suggestions to aicapstoneproject721@gmail.com. Thank you for helping me improve!"
@@ -712,9 +678,9 @@
         {
             "tag": "riddle",
             "patterns": [
-                "ask me a riddle",
-                "ask me a question",
-                "riddle"
+                "Ask me a riddle",
+                "Ask me a question",
+                "Riddle"
             ],
             "responses": [
                 "What two things can you never eat for breakfast?.....Lunch and Dinner!",
@@ -725,7 +691,7 @@
                 "What can be caught but never thrown?.....A cold!",
                 "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
                 " What 5-letter word becomes shorter when you add two letters to it?.....Short",
-                "Why can't a bike stand on its own?.....It is two-tired."
+                "Why can't a bike stand on it's own?.....It is two-tired."
             ],
             "context": [
                 "riddles"
@@ -741,16 +707,16 @@
             "responses": [
                 "I was made in 2024, if that's what you are asking!"
             ],
-            "context": []
+	"context": []
         },
         {
             "tag": "mental_health_resources",
             "patterns": [
-                "can you recommend mental health resources?",
-                "where can I get help?",
-                "mental health helplines",
-                "mental health resources",
-                "support for mental health"
+                "Can you recommend mental health resources?",
+                "Where can I get help?",
+                "Mental health helplines",
+                "Mental health resources",
+                "Support for mental health"
             ],
             "responses": [
                 "iCall is an initiative by Tata Institute of Social Sciences offering psychological support through phone and online counseling. Visit their website for more information."
@@ -762,10 +728,10 @@
         {
             "tag": "too_shy",
             "patterns": [
-                "i am too shy to get help",
-                "i am too shy to share",
-                "no, I’m too shy",
-                "i am shy"
+                "I’m too shy to get help",
+                "I’m too shy to share",
+                "No, I’m too shy",
+                "I’m shy"
             ],
             "responses": [
                 "It's okay to feel overwhelmed. Remember, you're not alone, and reaching out for help can make a difference.",
@@ -781,11 +747,11 @@
         {
             "tag": "irritated",
             "patterns": [
-                "i am irritated by the people around me",
-                "i am irritated by you",
-                "i am irritated",
-                "i am really irritated",
-                "i don't like talking to you"
+                "I’m irritated by the people around me",
+                "I’m irritated by you",
+                "I’m irritated",
+                "I’m really irritated",
+                "I don't like talking to you"
             ],
             "responses": [
                 "That’s understandable; sometimes people can be challenging. Taking a break or finding some time for yourself might help you feel more centered. Would you like to talk about what’s bothering you?",
@@ -800,7 +766,7 @@
         {
             "tag": "symptoms of depression",
             "patterns": [
-                "what are the symptoms of depression?"
+                "What are the symptoms of depression?"
             ],
             "responses": [
                 "Common symptoms of depression include\nPersistent sadness or low mood\nLoss of interest or pleasure in activities\nFatigue or low energy\nChanges in appetite or weight\nSleep disturbances (insomnia or oversleeping)\nDifficulty concentrating\nFeelings of worthlessness or guilt\nIrritability\nThoughts of death or suicide\nIf you or someone you know is struggling, seeking help is important."
@@ -812,10 +778,10 @@
         {
             "tag": "bored",
             "patterns": [
-                "i am feeling bored of life",
-                "people around me are boring",
-                "i get bored easily of things",
-                "i don’t feel motivated in doing anything"
+                "I'm feeling bored of life",
+                "People around me are boring",
+                "I get bored easily of things",
+                "I don’t feel motivated in doing anything"
             ],
             "responses": [
                 "I'm sorry to hear that. It might help to try something new, like a hobby or connecting with friends. If feelings of boredom persist, consider talking to someone about it. You’re not alone.",
@@ -830,13 +796,13 @@
         {
             "tag": "talk to parents",
             "patterns": [
-                "i can’t take help from my parents",
-                " my parents are not supportive",
-                "my parents don’t understand me"
+                "I can’t take help from my parents",
+               " My parents are not supportive",
+               "My parents don’t understand me"
             ],
             "responses": [
                 "Talking to your parents can be really helpful. They care about you and might offer support or understanding. It’s okay to share what you’re feeling; you don’t have to go through it alone. What is bothering you?",
-                "I’m really sorry you’re feeling that way. It can be incredibly frustrating when it feels like your parents don’t get where you’re coming from. What’s been going on? Maybe I can help you sort through it."
+               "I’m really sorry you’re feeling that way. It can be incredibly frustrating when it feels like your parents don’t get where you’re coming from. What’s been going on? Maybe I can help you sort through it."
             ],
             "context": [
                 ""
@@ -845,7 +811,7 @@
         {
             "tag": "symptoms of stress",
             "patterns": [
-                "what are the symptoms of stress"
+                "What are the symptoms of stress"
             ],
             "responses": [
                 "Symptoms of stress include:\nHeadaches\nFatigue\nIrritability\nDifficulty sleeping\nMuscle tension\nTrouble concentrating\nChanges in appetite\nIncreased heart rate\nIf you're feeling stressed, finding ways to relax can help."
@@ -857,7 +823,7 @@
         {
             "tag": "symptoms of loneliness",
             "patterns": [
-                "what are the symptoms of loneliness?"
+                "What are the symptoms of loneliness?"
             ],
             "responses": [
                 "Symptoms of loneliness can include:\nSadness or depression\nLack of motivation\nAnxiety\nLow self-esteem\nFeeling disconnected or isolated\nChanges in sleep patterns\nIncreased sensitivity to social situations\nReaching out to others can help alleviate these feelings."
@@ -869,9 +835,9 @@
         {
             "tag": "frustrated ",
             "patterns": [
-                "i am feeling frustrated",
-                "i am frustrated by the world",
-                "people around me are frustrating"
+                "Im feeling frustrated",
+                "I’m frustrated by the world",
+                "People around me are frustrating"
             ],
             "responses": [
                 "I'm sorry to hear that. Take a moment to breathe and reflect on what’s causing your frustration. Talking it out or finding a distraction can help too.",
@@ -885,9 +851,9 @@
         {
             "tag": "close ones passing away",
             "patterns": [
-                "my mom passed away",
-                "my dad passed away",
-                "my close relative passed away"
+                "My mom passed away",
+                "My dad passed away",
+                "My close relative passed away"
             ],
             "responses": [
                 "I’m really sorry for your loss. That’s incredibly difficult to go through. If you want to talk about it or share how you’re feeling, I’m here for you.",
@@ -901,9 +867,9 @@
         {
             "tag": "Body Shaming- fat",
             "patterns": [
-                "do you think I’m fat",
-                "people call me fat",
-                "i have been given names because i’m fat"
+                "Do you think I’m fat",
+                "People call me fat",
+                "I have been given names because i’m fat"
             ],
             "responses": [
                 "I don’t have opinions on that. What matters is how you feel about yourself. If you’re concerned, focusing on health and self-care can be more important than a number on a scale.",
@@ -917,9 +883,9 @@
         {
             "tag": "Body Shaming- skinny",
             "patterns": [
-                "do you think I’m skinny",
-                "people call me skinny",
-                "i have been given names because i’m skinny"
+                "Do you think I’m skinny",
+                "People call me skinny",
+                "I have been given names because i’m skinny"
             ],
             "responses": [
                 "I don’t have opinions on that. What matters is how you feel about yourself and your health.",
@@ -933,111 +899,61 @@
         {
             "tag": "Improve in life style",
             "patterns": [
-                "how can Improve my lifestyle",
-                "please help me improve",
-                "how can I feel better in my day to day life"
+                "How can Improve my lifestyle",
+                "Please help me improve",
+                "How can I feel better in my day to day life"
             ],
             "responses": [
                 "To improve your lifestyle, consider these tips:\nEat a balanced diet: Focus on whole foods, fruits, and vegetables.\nExercise regularly: Aim for at least 30 minutes of activity most days.\nGet enough sleep: Aim for 7-9 hours each night.\nStay hydrated: Drink plenty of water.\nManage stress: Try mindfulness, meditation, or hobbies you enjoy.\nConnect with others: Build a supportive social network.\nSet goals: Create small, achievable goals to stay motivated.\nStart with one or two changes that resonate with you!"
             ],
-            "context": [
+	 "context": [
                 ""
             ]
         },
         {
-            "tag": "to get friends",
-            "patterns": [
-                "how can I make more friends",
-                "i don’t have any friend to talk to",
-                "i don’t have friends"
-            ],
-            "responses": [
-                "\nJoin clubs or groups: Engage in activities you enjoy.\nBe approachable: Smile and make eye contact.\nStart conversations: Ask open-ended questions.\nAttend events: Go to social gatherings or meetups.\nVolunteer: Help out in your community.\nFollow up: Invite people to hang out again.",
-                "That's tough. Here are a few ideas to connect with others: \nOnline communities: Join forums or social media groups related to your interests.\nClasses or workshops: Take a class to learn something new and meet people.\nLocal events: Attend local gatherings or events in your area.\nHobbies: Engage in activities you love; you'll meet like-minded people.\nReach out: Don’t hesitate to talk to acquaintances or colleagues.\nSmall steps can lead to meaningful connections!",
-                "I understand; that can feel really isolating. Here are some steps to help: \nStart small: Try talking to classmates or coworkers casually. \nExplore interests: Join clubs or activities that interest you.\nVolunteer: Helping others can lead to friendships.\nUse social media: Connect with others online based on shared interests.\nBe open: Share a bit about yourself when you meet new people.\nIt takes time, but building connections is possible!"
-            ],
-            "context": [
+    "tag": "to get friends",
+    "patterns": [
+        "How can I make more friends",
+        "I don’t have any friend to talk to",
+        "I don’t have friends"
+    ],
+    "responses": [
+        "\nJoin clubs or groups: Engage in activities you enjoy.\nBe approachable: Smile and make eye contact.\nStart conversations: Ask open-ended questions.\nAttend events: Go to social gatherings or meetups.\nVolunteer: Help out in your community.\nFollow up: Invite people to hang out again.",
+        "That's tough. Here are a few ideas to connect with others: \nOnline communities: Join forums or social media groups related to your interests.\nClasses or workshops: Take a class to learn something new and meet people.\nLocal events: Attend local gatherings or events in your area.\nHobbies: Engage in activities you love; you'll meet like-minded people.\nReach out: Don’t hesitate to talk to acquaintances or colleagues.\nSmall steps can lead to meaningful connections!",
+        "I understand; that can feel really isolating. Here are some steps to help: \nStart small: Try talking to classmates or coworkers casually. \nExplore interests: Join clubs or activities that interest you.\nVolunteer: Helping others can lead to friendships.\nUse social media: Connect with others online based on shared interests.\nBe open: Share a bit about yourself when you meet new people.\nIt takes time, but building connections is possible!"
+    ],
+	   "context": [
                 ""
             ]
         },
-        {
-            "tag": "gender",
-            "patterns": [
-                "how do you gender yourself",
-                "what is your gender",
-                "tell gender",
-                "gender"
-            ],
-            "responses": [
-                "I don't have any gender .I am a chatbot and my name is Mindmate"
-            ],
-            "context": [
+  {
+        "tag": "gender",
+        "patterns":[
+         "How do you gender yourself",
+         "What is your gender",
+           "Tell gender",
+           "Gender"
+],
+           "responses":[
+           "I don't have any gender .I am a chatbot and my name is Mindmate"
+   ],
+	   "context": [
                 ""
             ]
         },
-        {
-            "tag": "academics",
-            "patterns": [
-                "how do i tackle academic pressure?",
-                "I am in a lot of pressure due to academics",
-                "how do I cope with feeling overwhelmed by schoolwork and deadlines?",
-                " what are some effective ways to reduce academic pressure? ",
-                "  how can parents support their children without adding to academic pressure? "
-            ],
-            "responses": [
-                "Break down your assignments, projects, and study sessions into manageable chunks.   Use a planner or digital calendar to track deadlines and plan your week.",
-                " If you’re struggling with a particular subject, seek help from tutors, professors, or academic advisors. Don’t hesitate to ask for clarification or guidance. ",
-                "  If you’re feeling pressure from parents, teachers, or peers, due to academics then have an honest conversation about what’s realistic. Help them understand your limits and communicate your needs.    "
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "tag": "peer pressure",
-            "patterns": [
-                "what is peer pressure, and how does it affect an individual’s behavior?",
-                "What are some strategies for making independent decisions when you feel pressured by peers?",
-                "How can peer pressure affect mental health and self-esteem?"
-            ],
-            "responses": [
-                "Before facing peer pressure, it's important to know what you stand for and what is important to you (e.g., your moral beliefs, health goals, or personal aspirations). When you're clear about what you value, it’s easier to say no when something conflicts with those values..",
-                " Before facing peer pressure, it's important to know what you stand for and what is important to you (e.g., your moral beliefs, health goals, or personal aspirations). When you're clear about what you value, it’s easier to say no when something conflicts with those values.",
-                "  Self-confidence plays a huge role in resisting peer pressure. When you're confident in your own decisions, it becomes easier to say no or walk away from situations that don't align with your beliefs. ",
-                "Assertiveness is the ability to express your thoughts and feelings in a respectful way while standing firm on your beliefs. Practicing assertive communication can help you speak up without feeling guilty or afraid of rejection. ",
-                "Having friends who share your values and support your decisions can make it easier to resist peer pressure. If your friends understand your boundaries and respect your choices, you’re less likely to feel pressured. "
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "tag": "relaxation ",
-            "patterns": [
-                "guide me through a short relaxation technique",
-                "What can help me to relax?",
-                "Suggest me some relaxation techniques."
-            ],
-            "responses": [
-                "\nFind Your Spot: Sit comfortably, maybe in a chair or on the floor. Make sure you’re cozy, no distractions.\nBreathe Deep: Close your eyes and take a deep breath in through your nose. Hold it for a second... now slowly breathe out through your mouth. Do that 3-4 times, just focusing on your breath. Inhale, exhale... feel the tension start to melt away.\nProgressive Muscle Relaxation: Start with your feet. Tense your toes for a second... then release. Move to your calves—tense them, hold for a sec, then relax. Work your way up: thighs, stomach, chest, shoulders, and even your face. Tense each muscle group for 3-5 seconds, then let go. You’re basically telling your body to chill out.\nVisualize Calm: Imagine you’re lying on a beach, the sun’s setting, the waves are rolling in... It’s quiet, peaceful, and you’re just there, vibing. Picture yourself sinking deeper into that relaxed state with every breath.\nFinal Breath: Take one more deep breath in, hold for a moment, and release. When you're ready, slowly open your eyes, stretch out, and feel that fresh, calm energy."
-            ],
-            "context": [
-                ""
-            ]
-        },
-        {
-            "tag": "scared or afraid",
-            "patterns": [
-                "i am scared ",
-                "i am afraid ",
-                "i am panicked"
-            ],
-            "responses": [
-                "Try inhaling deeply through your nose, holding for a few seconds, and exhaling slowly through your mouth. This can help calm your mind and body.",
-                "Reach out to a friend, family member, or therapist. Sharing your feelings can provide relief and support.",
-                "Focus on your surroundings. Name five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste. This can bring you back to the present moment."
-            ],
-            "context": [
+    {
+        "tag": "scared or afraid",
+        "patterns":[
+           "I am scared ",
+           "I am afraid ",
+           "I am panicked"
+       ],
+         "responses":[
+           "Try inhaling deeply through your nose, holding for a few seconds, and exhaling slowly through your mouth. This can help calm your mind and body.",
+           "Reach out to a friend, family member, or therapist. Sharing your feelings can provide relief and support.",
+           "Focus on your surroundings. Name five things you can see, four you can touch, three you can hear, two you can smell, and one you can taste. This can bring you back to the present moment."
+],
+   "context": [
                 ""
             ]
         }
