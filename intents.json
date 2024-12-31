@@ -9,15 +9,15 @@
                 "hola",
                 "hello",
                 "namaste",
-                "what’s up",
+                "what is up",
                 "yo",
                 "hi"
             ],
             "responses": [
-                "Hello! I'm here to listen.",
+                "Hello! I am here to listen.",
                 "Good to see you. How are you feeling today?",
                 "Hi there, how can I support you today?",
-                "Hi! What's on your mind?"
+                "Hi! What is on your mind?"
             ],
             "context": [
                 ""
@@ -33,7 +33,7 @@
             ],
             "responses": [
                 "Goodbye! Take care.",
-                "Remember, I'm always here if you need to talk.",
+                "Remember, I am always here if you need to talk.",
                 "Bye! Come back anytime you need support.",
                 "Take care and be kind to yourself."
             ],
@@ -53,7 +53,7 @@
                 "thanks bro"
             ],
             "responses": [
-                "You're welcome! I'm glad I could help.",
+                "You are welcome! I am glad I could help.",
                 "Happy to be here for you.",
                 "Anytime! Reach out whenever you need support.",
                 "My pleasure. Take care!"
@@ -67,15 +67,15 @@
             "patterns": [
                 "how are you",
                 "how are you doing?",
-                "what's up with you?",
+                "what is up with you?",
                 "how's your day?",
                 "how's it going?"
             ],
             "responses": [
-                "I'm doing well, thank you! How about you?",
-                "I'm here to listen to you. How are you feeling?",
-                "I’m always ready to help. How are you doing?",
-                "I'm here for you. How are you feeling today?"
+                "I am doing well, thank you! How about you?",
+                "I am here to listen to you. How are you feeling?",
+                "I am always ready to help. How are you doing?",
+                "I am here for you. How are you feeling today?"
             ],
             "context": [
                 ""
@@ -86,23 +86,23 @@
             "patterns": [
                 "i feel sad",
                 "i am not fine",
-                "i'm feeling down",
-                "i'm upset",
-                "i'm not okay",
+                "i am feeling down",
+                "i am upset",
+                "i am not okay",
                 "i feel low",
                 "i am fed up",
-                "i'm feeling emotional",
-                "i don't feel like myself today ",
+                "i am feeling emotional",
+                "i do not feel like myself today ",
                 "i am not feeling well",
-                "i don't want to get out of bed",
+                "i do not want to get out of bed",
                  "i am not in a good mood",
                  "i am in deep trouble"
             ],
             "responses": [
-                "I'm sorry you're feeling this way. Want to tell me what has been bothering you",
-                "I'm here for you.Would you like to share what is bothering you",
-                "It's okay to feel this way sometimes. Take your time, and let me know how I can help.",
-                "Do you want to tell me about what's making you feel this way?"
+                "I am sorry you are feeling this way. Want to tell me what has been bothering you",
+                "I am here for you.Would you like to share what is bothering you",
+                "It is okay to feel this way sometimes. Take your time, and let me know how I can help.",
+                "Do you want to tell me about what is making you feel this way?"
             ],
             "context": [
                 ""
@@ -111,18 +111,18 @@
         {
             "tag": "anxiety",
             "patterns": [
-                "i'm anxious",
+                "i am anxious",
                 "i feel anxious",
                 "i have anxiety",
                 "i can't calm down",
                 "i feel nervous",
-                "i'm worried"
+                "i am worried"
             ],
             "responses": [
-                "I'm sorry you're feeling anxious. Let's take a deep breath together.",
-                "It sounds like a lot is on your mind. I'm here if you want to talk.",
-                "Anxiety can feel overwhelming, but you're not alone. I am here to listen.",
-                "Try to focus on your breathing for a moment. I'm here with you."
+                "I am sorry you are feeling anxious. Let us take a deep breath together.",
+                "It sounds like a lot is on your mind. I am here if you want to talk.",
+                "Anxiety can feel overwhelming, but you are not alone. I am here to listen.",
+                "Try to focus on your breathing for a moment. I am here with you."
             ],
             "context": [
                 ""
@@ -131,17 +131,17 @@
         {
             "tag": "stress",
             "patterns": [
-                "i'm stressed",
+                "i am stressed",
                 "i feel stressed",
-                "i'm under a lot of pressure",
+                "i am under a lot of pressure",
                 "i can't handle the stress",
-                "i'm overwhelmed",
-                "i'm stressed out"
+                "i am overwhelmed",
+                "i am stressed out"
             ],
             "responses": [
-                "I'm sorry you're feeling stressed. Would you like to share what has been stressing you out.",
-                "I'm here to help you sort through your thoughts. Take your time and tell me .",
-                "It's okay to feel overwhelmed sometimes. Let’s talk about what’s been bothering you."
+                "I am sorry you are feeling stressed. Would you like to share what has been stressing you out.",
+                "I am here to help you sort through your thoughts. Take your time and tell me .",
+                "It is okay to feel overwhelmed sometimes. Let us talk about what has been bothering you."
             ],
             "context": [
                 ""
@@ -151,17 +151,17 @@
             "tag": "loneliness",
             "patterns": [
                 "i feel lonely",
-                "i'm alone",
+                "I am alone",
                 "nobody understands me",
                 "i have no one",
-                "i'm isolated",
+                "I am isolated",
                 "i am lonely"
             ],
             "responses": [
-                "I'm really sorry you're feeling lonely. Remember, I'm here with you.",
+                "I am really sorry you are feeling lonely. Remember, I am here with you.",
                 "It can be tough to feel alone. Please tell me all about it.",
-     "I understand how hard that can be. I'm here for you, whenever you need someone to  talk to.",
-                "You're not truly alone. I'm right here, listening to you."
+     "I understand how hard that can be. I am here for you, whenever you need someone to  talk to.",
+                "You are not truly alone. I am right here, listening to you."
             ],
             "context": [
                 ""
@@ -170,18 +170,18 @@
         {
             "tag": "self_esteem",
             "patterns": [
-                "i don't feel good about myself",
-                "i'm not enough",
+                "i do not feel good about myself",
+                "i am not enough",
                 "i have low self-esteem",
                 "i feel worthless",
                 "i have no confidence in myself.",
                 " i  always doubt myself "
             ],
             "responses": [
-                "I'm really sorry you're feeling this way. You are worthy and valuable.",
+                "I am really sorry you are feeling this way. You are worthy and valuable.",
                 "It can be hard to feel confident, but remember you have unique strengths.",
-                "Self-esteem takes time to build, and it’s okay to feel this way. Tell me what makes you feel this way, I am here to listen.",
-                "You are important, and your feelings matter. I'm here to listen."
+                "Self-esteem takes time to build, and It is okay to feel this way. Tell me what makes you feel this way, I am here to listen.",
+                "You are important, and your feelings matter. I am here to listen."
             ],
             "context": [
                 ""
@@ -191,17 +191,17 @@
             "tag": "depression",
             "patterns": [
                 "i am depressed",
-                "I am in depression",
+                "i am in depression",
                 "i feel hopeless",
                 "everything feels pointless",
-                "i'm struggling with depression",
-                "i'm in a dark place"
+                "i am struggling with depression",
+                "i am in a dark place"
             ],
             "responses": [
-                "I'm so sorry you're feeling this way. It sounds really tough. I'm here for you.",
-                "It’s okay to feel this way, but you don’t have to face it alone. Let us talk about the good memories . please do share if you like.",
-                "Depression can be incredibly hard to deal with. Let’s take it one step at a time. I'm here for you.",
-                "I'm really sorry you're feeling this low. Would it help to talk about what’s weighing on you?"
+                "I am so sorry you are feeling this way. It sounds really tough. I am here for you.",
+                "It is okay to feel this way, but you do not have to face it alone. Let us talk about the good memories . Please do share if you like.",
+                "Depression can be incredibly hard to deal with. Let’s take it one step at a time. I am here for you.",
+                "I am really sorry you are feeling this low. Would it help to talk about what is weighing on you?"
             ],
             "context": [
                 ""
@@ -210,18 +210,18 @@
         {
             "tag": "suicide",
             "patterns": [
-                "i don’t want to live",
+                "i do not want to live",
                 "i want to hurt myself",
                 "i want to kill myself",
                 "i want to unalive myself",
                 "suicide",
                 "self harm",
-                "i'm going to kill myself",
+                "I am going to kill myself",
                 "i feel like dying ",
                 "I think of suiciding everyday"
             ],
             "responses": [
-                "You are important, and your life has value.  You can talk to your close ones about your problems or can contact a Helpline at 9152987821 or visit https://icallhelpline.org/ . You don't have to go through this alone."
+                "You are important, and your life has value.  You can talk to your close ones about your problems or can contact a Helpline at 9152987821 or visit https://icallhelpline.org/ . You do not have to go through this alone."
             ],
             "context": [
                 ""
@@ -298,7 +298,7 @@
                 "Make a list of what specifically worries you. Sometimes, getting it out of your head and onto paper can help you see things more clearly.",
                 "Identify areas where you can take action. Break down larger concerns into manageable steps you can work on. ",
                 "Setting achievable goals can give you a sense of purpose and direction, making the future feel less daunting. ",
-                "Regularly reflecting on what you’re grateful for can shift your focus from worry to appreciation. "
+                "Regularly reflecting on what you are grateful for can shift your focus from worry to appreciation. "
             ],
             "context": [
                 ""
@@ -331,7 +331,7 @@
             ],
             "responses": [
                 "Define short-term and long-term goals to give your tasks direction and purpose. ",
-                " Use methods like the Eisenhower Matrix to distinguish between what’s urgent and important, helping you focus on what truly matters. ",
+                " Use methods like the Eisenhower Matrix to distinguish between what is urgent and important, helping you focus on what truly matters. ",
                 "Plan your day with time blocks for specific activities. This can help you allocate time for work, breaks, and personal tasks. ",
                 "Regularly review how you spend your time and adjust your strategies as needed to improve efficiency. "
             ],
@@ -403,7 +403,7 @@
             ],
             "responses": [
                 "Practicing gratitude can be as simple as taking a moment to appreciate something small in your day. What are you grateful for today?",
-                "Gratitude can help shift your focus to positive things. Want to list three things you're thankful for?",
+                "Gratitude can help shift your focus to positive things. Want to list three things you are thankful for?",
                 "Being grateful for small things, like a sunny day or a good meal, can improve your mood. Think about something that made you smile today and share with me if you are comfortable."
             ],
             "context": [
@@ -432,7 +432,7 @@
                 "what support is offered?"
             ],
             "responses": [
-                "I am a Mental Health Chatbot! I’m here to provide support whenever you require!"
+                "I am a Mental Health Chatbot! I am here to provide support whenever you require!"
             ],
             "context": [
                 ""
@@ -450,13 +450,13 @@
                 "I ate a clock yesterday, it was very time-consuming",
                 "Never criticize someone until you've walked a mile in their shoes. That way, when you criticize them, they won't be able to hear you from that far away. Plus, you'll have their shoes.",
                 "The world tongue-twister champion just got arrested. I hear they're gonna give him a really tough sentence.",
-                "I own the world's worst thesaurus. Not only is it awful, it's awful.",
-                "What did the traffic light say to the car? \"Don't look now, I'm changing.\"",
+                "I own the world's worst thesaurus. Not only is it awful, It is awful.",
+                "What did the traffic light say to the car? \"do not look now, I am changing.\"",
                 "What do you call a snowman with a suntan? A puddle.",
                 "How does a penguin build a house? Igloos it together",
                 "I went to see the doctor about my short-term memory problems – the first thing he did was make me pay in advance",
                 "As I get older and I remember all the people I’ve lost along the way, I think to myself, maybe a career as a tour guide wasn’t for me.",
-                "So what if I don't know what 'Armageddon' means? It's not the end of the world."
+                "So what if I do not know what 'Armageddon' means? It is not the end of the world."
             ],
             "context": [
                 "jokes"
@@ -671,7 +671,7 @@
                 "What two things can you never eat for breakfast?.....Lunch and Dinner!",
                 "What word is spelled incorrectly in every single dictionary?.....Incorrectly",
                 " How can a girl go 25 days without sleep?.....She sleeps at night!",
-                "How do you make the number one disappear?.....Add the letter G and it’s 'gone'!",
+                "How do you make the number one disappear?.....Add the letter G and It is 'gone'!",
                 " What will you actually find at the end of every rainbow?.....The letter 'w'",
                 "What can be caught but never thrown?.....A cold!",
                 "What has a thumb and four fingers but is not actually alive?.....Your Gloves!",
@@ -715,15 +715,15 @@
             "patterns": [
                 "i am too shy to get help",
                 "i am too shy to share",
-                "no, I’m too shy",
+                "no, I am too shy",
                 "i am shy"
             ],
             "responses": [
-                "It's okay to feel overwhelmed. Remember, you're not alone, and reaching out for help can make a difference.",
-                "You deserve to be treated with kindness. Surround yourself with people who uplift you and don’t hesitate to speak up about what you’re feeling.",
-                "Take small steps at your own pace. It’s perfectly fine to take time for yourself and find activities that make you feel safe and happy.",
-                "Your feelings are valid, and it’s important to talk about them. Consider confiding in someone you trust, like a friend or a counselor.",
-                "Remember that bullying reflects on the bully, not you. Focus on your strengths and know that you’re worthy of love and respect."
+                "It is okay to feel overwhelmed. Remember, you are not alone, and reaching out for help can make a difference.",
+                "You deserve to be treated with kindness. Surround yourself with people who uplift you and do not hesitate to speak up about what you are feeling.",
+                "Take small steps at your own pace. It is perfectly fine to take time for yourself and find activities that make you feel safe and happy.",
+                "Your feelings are valid, and It is important to talk about them. Consider confiding in someone you trust, like a friend or a counselor.",
+                "Remember that bullying reflects on the bully, not you. Focus on your strengths and know that you are worthy of love and respect."
             ],
             "context": [
                 ""
@@ -736,11 +736,11 @@
                 "i am irritated by you",
                 "i am irritated",
                 "i am really irritated",
-                "i don't like talking to you"
+                "i do not like talking to you"
             ],
             "responses": [
                 "That’s understandable; sometimes people can be challenging. Taking a break or finding some time for yourself might help you feel more centered. I am here to listen if you would like to share what has been bothering you.",
-                "I’m sorry to hear that! If there’s something specific that’s bothering you, let me know so I can help.",
+                "I am sorry to hear that! If there’s something specific that’s bothering you, let me know so I can help.",
                 "I get it; frustration can be tough.You can share what is causing it if you are comfortable. Sometimes talking about it helps.",
                 "That’s okay! If you prefer, I can give you some space. Just let me know if you change your mind."
             ],
@@ -766,12 +766,12 @@
                 "i am feeling bored of life",
                 "people around me are boring",
                 "i get bored easily of things",
-                "i don’t feel motivated in doing anything"
+                "i do not feel motivated in doing anything"
             ],
             "responses": [
-                "I'm sorry to hear that. It might help to try something new, like a hobby or connecting with friends. If feelings of boredom persist, consider talking to someone about it. You’re not alone.",
+                "I am sorry to hear that. It might help to try something new, like a hobby or connecting with friends. If feelings of boredom persist, consider talking to someone about it. you are not alone.",
                 "That can be tough. Maybe try exploring new interests or meeting new people through activities or groups. Finding those who share your passions can make a big difference!",
-                "It’s common to feel that way. You might benefit from mixing up your routine or trying new activities frequently. Setting small goals or challenges can also help keep things interesting!",
+                "It is common to feel that way. You might benefit from mixing up your routine or trying new activities frequently. Setting small goals or challenges can also help keep things interesting!",
                 "Try setting small goals and explore new interests. A buddy can help too!"
             ],
             "context": [
@@ -783,11 +783,11 @@
             "patterns": [
                 "i can’t take help from my parents",
                " my parents are not supportive",
-               "my parents don’t understand me"
+               "my parents do not understand me"
             ],
             "responses": [
-                "Talking to your parents can be really helpful. They care about you and might offer support or understanding. It’s okay to share what you’re feeling; you don’t have to go through it alone. What is bothering you?",
-               "I’m really sorry you’re feeling that way. It can be incredibly frustrating when it feels like your parents don’t get where you’re coming from. What’s been going on? Maybe I can help you sort through it."
+                "Talking to your parents can be really helpful. They care about you and might offer support or understanding. It is okay to share what you are feeling; you do not have to go through it alone. What is bothering you?",
+               "I am really sorry you are feeling that way. It can be incredibly frustrating when it feels like your parents do not get where you are coming from. what is been going on? Maybe I can help you sort through it."
             ],
             "context": [
                 ""
@@ -799,7 +799,7 @@
                 "what are the symptoms of stress"
             ],
             "responses": [
-                "Symptoms of stress include:\nHeadaches\nFatigue\nIrritability\nDifficulty sleeping\nMuscle tension\nTrouble concentrating\nChanges in appetite\nIncreased heart rate\nIf you're feeling stressed, finding ways to relax can help."
+                "Symptoms of stress include:\nHeadaches\nFatigue\nIrritability\nDifficulty sleeping\nMuscle tension\nTrouble concentrating\nChanges in appetite\nIncreased heart rate\nIf you are feeling stressed, finding ways to relax can help."
             ],
             "context": [
                 ""
@@ -825,7 +825,7 @@
                 "people around me are frustrating"
             ],
             "responses": [
-                "I'm sorry to hear that. Take a moment to breathe and reflect on what’s causing your frustration. Talking it out or finding a distraction can help too.",
+                "I am sorry to hear that. Take a moment to breathe and reflect on what is causing your frustration. Talking it out or finding a distraction can help too.",
                 "That’s understandable; the world can feel overwhelming. It might help to focus on what you can control or find small ways to make a positive impact. Connecting with others who share your feelings can also provide support.",
                 "That can be really challenging. Consider setting boundaries or finding ways to communicate openly about your feelings. Sometimes, taking a break from certain people can also help."
             ],
@@ -841,9 +841,9 @@
                 "my close relative passed away"
             ],
             "responses": [
-                "I’m really sorry for your loss. That’s incredibly difficult to go through. If you want to talk about it or share how you’re feeling, I’m here for you.",
-                "I’m so sorry to hear that. Losing a parent is incredibly painful. If you want to share or talk about how you're feeling, I'm here to listen.",
-                "I’m really sorry for your loss. Grieving can be very hard. If you want to talk about it or share how you’re feeling, I’m here for you."
+                "I am really sorry for your loss. That’s incredibly difficult to go through. If you want to talk about it or share how you are feeling, I am here for you.",
+                "I am so sorry to hear that. Losing a parent is incredibly painful. If you want to share or talk about how you are feeling, I am here to listen.",
+                "I am really sorry for your loss. Grieving can be very hard. If you want to talk about it or share how you are feeling, I am here for you."
             ],
             "context": [
                 ""
@@ -852,14 +852,14 @@
         {
             "tag": "Body Shaming- fat",
             "patterns": [
-                "do you think I’m fat",
+                "do you think I am fat",
                 "people call me fat",
-                "i have been given names because i’m fat"
+                "i have been given names because I am fat"
             ],
             "responses": [
-                "I don’t have opinions on that. What matters is how you feel about yourself. If you’re concerned, focusing on health and self-care can be more important than a number on a scale.",
-                "I’m sorry to hear that. It’s hurtful when others say things like that. Remember, your worth isn’t defined by anyone else’s opinion. Surround yourself with supportive people who appreciate you for who you are.",
-                "I'm sorry to hear that. You don’t deserve it. Focus on supportive people who appreciate you."
+                "I do not have opinions on that. What matters is how you feel about yourself. If you are concerned, focusing on health and self-care can be more important than a number on a scale.",
+                "I am sorry to hear that. It is hurtful when others say things like that. Remember, your worth is not defined by anyone else’s opinion. Surround yourself with supportive people who appreciate you for who you are.",
+                "I am sorry to hear that. You do not deserve it. Focus on supportive people who appreciate you."
             ],
             "context": [
                 ""
@@ -868,14 +868,14 @@
         {
             "tag": "Body Shaming- skinny",
             "patterns": [
-                "do you think I’m skinny",
+                "do you think I am skinny",
                 "people call me skinny",
-                "i have been given names because i’m skinny"
+                "i have been given names because I am skinny"
             ],
             "responses": [
-                "I don’t have opinions on that. What matters is how you feel about yourself and your health.",
-                "That can be tough to hear, especially if it bothers you. Remember, everyone’s body is different, and your worth isn’t defined by others’ opinions. Focus on what makes you feel good.",
-                "I’m sorry you’re experiencing that. It’s hurtful when people judge based on appearance. Surround yourself with those who appreciate you for who you are, not just how you look."
+                "I do not have opinions on that. What matters is how you feel about yourself and your health.",
+                "That can be tough to hear, especially if it bothers you. Remember, everyone’s body is different, and your worth is not defined by others’ opinions. Focus on what makes you feel good.",
+                "I am sorry you are experiencing that. It is hurtful when people judge based on appearance. Surround yourself with those who appreciate you for who you are, not just how you look."
             ],
             "context": [
                 ""
@@ -899,12 +899,12 @@
     "tag": "to get friends",
     "patterns": [
         "how can I make more friends",
-        "i don’t have any friend to talk to",
-        "i don’t have friends"
+        "i do not have any friend to talk to",
+        "i do not have friends"
     ],
     "responses": [
         "\nJoin clubs or groups: Engage in activities you enjoy.\nBe approachable: Smile and make eye contact.\nStart conversations: Ask open-ended questions.\nAttend events: Go to social gatherings or meetups.\nVolunteer: Help out in your community.\nFollow up: Invite people to hang out again.",
-        "That's tough. Here are a few ideas to connect with others: \nOnline communities: Join forums or social media groups related to your interests.\nClasses or workshops: Take a class to learn something new and meet people.\nLocal events: Attend local gatherings or events in your area.\nHobbies: Engage in activities you love; you'll meet like-minded people.\nReach out: Don’t hesitate to talk to acquaintances or colleagues.\nSmall steps can lead to meaningful connections!",
+        "That's tough. Here are a few ideas to connect with others: \nOnline communities: Join forums or social media groups related to your interests.\nClasses or workshops: Take a class to learn something new and meet people.\nLocal events: Attend local gatherings or events in your area.\nHobbies: Engage in activities you love; you'll meet like-minded people.\nReach out: do not hesitate to talk to acquaintances or colleagues.\nSmall steps can lead to meaningful connections!",
         "I understand; that can feel really isolating. Here are some steps to help: \nStart small: Try talking to classmates or coworkers casually. \nExplore interests: Join clubs or activities that interest you.\nVolunteer: Helping others can lead to friendships.\nUse social media: Connect with others online based on shared interests.\nBe open: Share a bit about yourself when you meet new people.\nIt takes time, but building connections is possible!"
     ],
 	   "context": [
@@ -920,7 +920,7 @@
            "gender"
 ],
            "responses":[
-           "I don't have any gender .I am a chatbot and my name is Mindmate"
+           "I do not have any gender .I am a chatbot and my name is Mindmate"
    ],
 	   "context": [
                 ""
@@ -936,7 +936,7 @@
        ],
   "responses":[
            "Break down your assignments, projects, and study sessions into manageable chunks.   Use a planner or digital calendar to track deadlines and plan your week.",
-           " If you’re struggling with a particular subject, seek help from tutors, professors, or academic advisors. Don’t hesitate to ask for clarification or guidance." ,
+           " If you are struggling with a particular subject, seek help from tutors, professors, or academic advisors. do not hesitate to ask for clarification or guidance." ,
           " Get enough sleep, exercise, and eat well. Stay consistent with study times.  " 
    ],
  "context": [
@@ -950,9 +950,9 @@
 " What steps can I take to regain control of my academic choices and work at my own pace?"
 ],
   "responses":[
-          "  If you’re feeling pressure from parents, teachers, or peers, due to academics then have an honest conversation about what’s realistic. Help them understand your limits and communicate your needs. " ,
+          "  If you are feeling pressure from parents, teachers, or peers, due to academics then have an honest conversation about what is realistic. Help them understand your limits and communicate your needs. " ,
         " Explain that while you understand their concerns or aspirations for you, you also need room to grow at your own pace and make decisions that align with your goals." ,
-        "If relatives or others are overstepping with their advice or demands, it’s okay to politely redirect the conversation to focus on your needs and goals ",
+        "If relatives or others are overstepping with their advice or demands, It is okay to politely redirect the conversation to focus on your needs and goals ",
        "Instead of seeing academic challenges as tests you must pass for approval, view them as opportunities for growth. Focus on learning and improvement rather than perfection.  "
    ],
  "context": [
@@ -967,11 +967,11 @@
          "how can peer pressure affect mental health and self-esteem?"
 ],
   "responses":[
-           "Before facing peer pressure, it's important to know what you stand for and what is important to you (e.g., your moral beliefs, health goals, or personal aspirations). When you're clear about what you value, it’s easier to say no when something conflicts with those values..",
-           " Before facing peer pressure, it's important to know what you stand for and what is important to you (e.g., your moral beliefs, health goals, or personal aspirations). When you're clear about what you value, it’s easier to say no when something conflicts with those values." ,
-          "  Self-confidence plays a huge role in resisting peer pressure. When you're confident in your own decisions, it becomes easier to say no or walk away from situations that don't align with your beliefs. " ,
+           "Before facing peer pressure, It is important to know what you stand for and what is important to you (e.g., your moral beliefs, health goals, or personal aspirations). When you are clear about what you value, It is easier to say no when something conflicts with those values..",
+           " Before facing peer pressure, It is important to know what you stand for and what is important to you (e.g., your moral beliefs, health goals, or personal aspirations). When you are clear about what you value, It is easier to say no when something conflicts with those values." ,
+          "  Self-confidence plays a huge role in resisting peer pressure. When you are confident in your own decisions, it becomes easier to say no or walk away from situations that do not align with your beliefs. " ,
           "Assertiveness is the ability to express your thoughts and feelings in a respectful way while standing firm on your beliefs. Practicing assertive communication can help you speak up without feeling guilty or afraid of rejection. " ,
-        "Having friends who share your values and support your decisions can make it easier to resist peer pressure. If your friends understand your boundaries and respect your choices, you’re less likely to feel pressured. "
+        "Having friends who share your values and support your decisions can make it easier to resist peer pressure. If your friends understand your boundaries and respect your choices, you are less likely to feel pressured. "
    ],
  "context": [
                 ""
@@ -985,7 +985,7 @@
                 "suggest me some relaxation techniques."
                        ],
             "responses": [
-                "\nFind Your Spot: Sit comfortably, maybe in a chair or on the floor. Make sure you’re cozy, no distractions.\nBreathe Deep: Close your eyes and take a deep breath in through your nose. Hold it for a second... now slowly breathe out through your mouth. Do that 3-4 times, just focusing on your breath. Inhale, exhale... feel the tension start to melt away.\nProgressive Muscle Relaxation: Start with your feet. Tense your toes for a second... then release. Move to your calves—tense them, hold for a sec, then relax. Work your way up: thighs, stomach, chest, shoulders, and even your face. Tense each muscle group for 3-5 seconds, then let go. You’re basically telling your body to chill out.\nVisualize Calm: Imagine you’re lying on a beach, the sun’s setting, the waves are rolling in... It’s quiet, peaceful, and you’re just there, vibing. Picture yourself sinking deeper into that relaxed state with every breath.\nFinal Breath: Take one more deep breath in, hold for a moment, and release. When you're ready, slowly open your eyes, stretch out, and feel that fresh, calm energy."
+                "\nFind Your Spot: Sit comfortably, maybe in a chair or on the floor. Make sure you are cozy, no distractions.\nBreathe Deep: Close your eyes and take a deep breath in through your nose. Hold it for a second... now slowly breathe out through your mouth. Do that 3-4 times, just focusing on your breath. Inhale, exhale... feel the tension start to melt away.\nProgressive Muscle Relaxation: Start with your feet. Tense your toes for a second... then release. Move to your calves—tense them, hold for a sec, then relax. Work your way up: thighs, stomach, chest, shoulders, and even your face. Tense each muscle group for 3-5 seconds, then let go. you are basically telling your body to chill out.\nVisualize Calm: Imagine you are lying on a beach, the sun’s setting, the waves are rolling in... It is quiet, peaceful, and you are just there, vibing. Picture yourself sinking deeper into that relaxed state with every breath.\nFinal Breath: Take one more deep breath in, hold for a moment, and release. When you are ready, slowly open your eyes, stretch out, and feel that fresh, calm energy."
             ],
  "context": [
                 ""
