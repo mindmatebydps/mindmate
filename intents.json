@@ -412,7 +412,6 @@
         },
         {
             "tag": "noanswer",
-            "patterns": [],
             "responses": [
                 "Sorry, I cannot answer this ,please ask something I can answer ",
                 "Please give me more info",
