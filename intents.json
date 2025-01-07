@@ -411,7 +411,7 @@
             ]
         },
         {
-            "tag": "no answer",
+            "tag": "noanswer",
             "responses": [
                 "Sorry, I cannot answer this ,please ask something I can answer ",
                 "Please give me more info",
@@ -527,11 +527,12 @@
                 "you are dumb",
                 "shut up",
                 "idiot",
-                 "rubbish",
-                 "stupid ",
-                  "rude",
-                  "you are ugly ",
-                  "you are worthless "
+                "rubbish",
+                "stupid ",
+                "rude",
+                "you are ugly ",
+                "you are worthless ",
+                "i hate you"
             ],
             "responses": [
                 "Well that hurts :("
@@ -819,7 +820,6 @@
         {
             "tag": "frustrated ",
             "patterns": [
-                "i hate you", 
                 "i am feeling frustrated",
                 "i am frustrated by the world",
                 "people around me are frustrating"
