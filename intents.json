@@ -411,8 +411,7 @@
             ]
         },
         {
-            "tag": "noanswer",
-            "patterns": [],
+            "tag": "no answer",
             "responses": [
                 "Sorry, I cannot answer this ,please ask something I can answer ",
                 "Please give me more info",
@@ -787,7 +786,7 @@
             ],
             "responses": [
                 "Talking to your parents can be really helpful. They care about you and might offer support or understanding. It is okay to share what you are feeling; you do not have to go through it alone. What is bothering you?",
-               "I am really sorry you are feeling that way. It can be incredibly frustrating when it feels like your parents do not get where you are coming from. what is been going on? Maybe I can help you sort through it."
+               "I am really sorry you are feeling that way. It can be incredibly frustrating when it feels like your parents do not get where you are coming from. What has been going on? Maybe I can help you sort through it."
             ],
             "context": [
                 ""
@@ -820,6 +819,7 @@
         {
             "tag": "frustrated ",
             "patterns": [
+                "i hate you", 
                 "i am feeling frustrated",
                 "i am frustrated by the world",
                 "people around me are frustrating"
@@ -1023,3 +1023,5 @@
         }
     ]
 }
+
+
