@@ -21,8 +21,8 @@ model = load_model('chatbot_model.h5')
 
 # Helper functions
 def clean_up_sentence(sentence):
-    sentence = sentence.lower()#NEW
-    sentence = sentence.translate(str.maketrans('', '', string.punctuation))#NEW
+    sentence = sentence.lower()
+    sentence = sentence.translate(str.maketrans('', '', string.punctuation))
     sentence_words = nltk.word_tokenize(sentence)
     sentence_words = [lemmatizer.lemmatize(word) for word in sentence_words]
     return sentence_words
