@@ -1,5 +1,5 @@
-tensorflow==2.15.0
-keras==2.15.0
+tensorflow==2.19.0
+keras==3.3.3
 nltk==3.8.1
 requests==2.31.0
 urllib3==2.2.1
