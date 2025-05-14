@@ -1,3 +1,4 @@
 nltk==3.4.5
 Keras==2.3.1
 requests==2.23.0
+urllib3>=2.2.0
